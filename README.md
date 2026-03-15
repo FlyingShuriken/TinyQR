@@ -20,9 +20,19 @@ Found URLs appear with **Copy** and **Open** buttons. Auto-dismisses after 2 sec
 
 Open `TinyQR.xcodeproj` in Xcode and press **⌘R**.
 
+## Installation
+
+Download `TinyQR.zip` from [Releases](../../releases), unzip, and drag to `/Applications`.
+
+> **First launch:** right-click the app → **Open** to bypass Gatekeeper, or run:
+>
+> ```bash
+> xattr -cr /Applications/TinyQR.app
+> ```
+
 ## Settings
 
-| Setting | Description |
-|---|---|
+| Setting         | Description                                |
+| --------------- | ------------------------------------------ |
 | Launch at Login | Start TinyQR automatically when you log in |
-| Quit TinyQR | ⌘Q |
+| Quit TinyQR     | ⌘Q                                         |
